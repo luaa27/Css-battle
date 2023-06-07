@@ -1,0 +1,30 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient( #FFF1C1 50%, #293462 50%);
+
+}
+.um{
+content: '';
+display: block;
+width: 50%;
+height: 100px;
+background: linear-gradient(to rigth, #FE5F55 75%, #A64942 75%);
+position: absolute;
+bottom: 0;
+left: 0;
+}
+.dois{
+    content: '';
+    display: block;
+    width: 25%;
+    height: 00px;
+    background: linear-gradient(to rigth, #FE5F55 75%, #A64942 75%);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}

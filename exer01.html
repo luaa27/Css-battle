@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="stye.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <container>
+        <div></div>
+        <div id="dois"></div>
+        <div id="tres"></div>
+        <div id="quatro"></div>
+    </container>
+    <style>
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #14313e;
+}
+
+container{
+
+
+    width: 500px;
+    height: 400px;
+
+
+    background-color: #62374e; 
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 50px;
+}
+
+div{
+
+  
+    background-color: #fdc57b;
+    width: 80px;
+    height: 80px;
+}
+
+#dois{
+    place-self: start end;
+}
+
+#tres{
+    align-self: flex-end;
+}
+
+#quatro{
+    place-self: flex-end;
+}
+    </style>
+</body>
+</html>
